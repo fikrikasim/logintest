@@ -1,0 +1,19 @@
+{
+    "family": "logintest",
+    "containerDefinitions": [
+        {
+            "image": "586437783537.dkr.ecr.ap-southeast-1.amazonaws.com/logintest:latest",
+            "name": "logintest_container",
+            "cpu": 1,
+            "memory": 128,
+            "essential": true,
+            "portMappings": [
+                {
+                    "containerPort": 9000,
+                    "hostPort": 0,
+		    "protocol": "tcp"
+                }
+            ]
+        }
+    ]
+}
