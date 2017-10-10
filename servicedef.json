@@ -6,7 +6,7 @@
         {
             "targetGroupArn": "arn:aws:elasticloadbalancing:ap-southeast-1:586437783537:targetgroup/mexitonlb-tg/71cafd700c49e873",
             "containerName": "logintest_container",
-            "containerPort": 9000
+            "containerPort": 80
         }
     ],
     "desiredCount": 1,
