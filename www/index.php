@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>LOGIN PAGE - Version1</title>
+	<title>LOGIN PAGE - V2</title>
 	<link href='//fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 	<style>
 	body {
@@ -17,7 +17,7 @@
 </head>
 <body>
 	<img id="logo" src="logo.png" />
-	<h1><?php echo "LOGIN".($_ENV["NAME"]?$_ENV["NAME"]:"PAGE - VERSION 1")."!"; ?></h1>
+	<h1><?php echo "LOGIN".($_ENV["NAME"]?$_ENV["NAME"]:"PAGE - VERSION 2")."!"; ?></h1>
 	<?php if($_ENV["HOSTNAME"]) {?><h3>My hostname is <?php echo $_ENV["HOSTNAME"]; ?></h3><?php } ?>
 	<?php
 	$links = [];
